@@ -1,0 +1,59 @@
+
+.banner{
+    background-image: url('background.png');
+    background-size: cover;
+    
+}
+.blue{
+    color: #1d9bf0;
+}
+.fa-twitter{
+    margin-top: 30px;
+    font-size: 70px;
+    color: #1d9bf0;
+}
+.infos{
+    float: left;
+}
+.infos h1{
+    font-size: 70px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+.infos .rejoins{
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+.btn{
+    width: 300px;
+    border: 1px solid rgb(102, 102, 102);
+    margin: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.btn:hover{
+    background-color: #1d9bf0;
+}
+.btn i{
+    margin-right:10px;
+    font-size: 16px;
+}
+@media (max-width:767px) {
+    .banner{
+        height: 300px;
+    }
+    .infos{
+        text-align: center;
+    }
+    .fa-twitter{
+        float: left;
+    }
+    .infos h1{
+        margin-top: 70px;
+    }
+    
+}
+
